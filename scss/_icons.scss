@@ -8,7 +8,7 @@
 		//url('../fonts/demo-icons.svg#demo-icons') format('svg');
 }
 
-.icon:before {
+.icon:before, .iconfont {
 	font-family: "demo-icons";
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -19,6 +19,7 @@
 	text-decoration: none;
 	text-transform: none;
 }
+
 
 
 .icon-CTA_arrow:before {

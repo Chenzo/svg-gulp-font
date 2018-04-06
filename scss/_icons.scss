@@ -1,14 +1,14 @@
 @font-face {
 	font-family: "demo-icons";
-	src: url('../fonts/demo-icons.eot');
-	src: url('../fonts/demo-icons.eot?#iefix') format('eot'),
-		url('../fonts/demo-icons.woff2') format('woff2'),
-		url('../fonts/demo-icons.woff') format('woff'),
-		url('../fonts/demo-icons.ttf') format('truetype'),
-		//url('../fonts/demo-icons.svg#demo-icons') format('svg');
+	src: url('/fonts/demo-icons.eot');
+	src: url('/fonts/demo-icons.eot?#iefix') format('eot'),
+		url('/fonts/demo-icons.woff2') format('woff2'),
+		url('/fonts/demo-icons.woff') format('woff'),
+		url('/fonts/demo-icons.ttf') format('truetype'),
+		url('/fonts/demo-icons.svg#demo-icons') format('svg');
 }
 
-.icon:before, .iconfont {
+.icon:before {
 	font-family: "demo-icons";
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -19,7 +19,6 @@
 	text-decoration: none;
 	text-transform: none;
 }
-
 
 
 .icon-CTA_arrow:before {
@@ -110,18 +109,14 @@
 	content: "\E016";
 }
 
-.icon-toll_blog_icon:before {
+.icon-tub:before {
 	content: "\E017";
 }
 
-.icon-tub:before {
+.icon-twitter:before {
 	content: "\E018";
 }
 
-.icon-twitter:before {
-	content: "\E019";
-}
-
 .icon-village_arrow:before {
-	content: "\E01A";
+	content: "\E019";
 }

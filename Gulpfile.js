@@ -12,7 +12,8 @@ var gulp = require('gulp'),
 var fontName = 'demo-icons';
  
 gulp.task('iconfont', function() {
-  gulp.src(['./images/svg/*.svg'])
+  gulp.src(['./svgs/*.svg'])
+    .pipe(imagemin())
     .pipe(iconfontCSS({
       fontName: fontName,
       targetPath: './../../scss/_icons.scss',
